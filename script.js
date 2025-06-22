@@ -2,7 +2,7 @@ document.getElementById('orderForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const formData = new FormData(this);
 
-  fetch('https://script.google.com/macros/s/AKfycbyMS3be7NYQWno0vSWYG82WpCQDUwWcjCYM_dl0dQutk5BhueZvMzV0y-pLgQ0nIW-C2w/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbxQgd5e99suw_zr8mFlIB09EHmTr2RTB_74EgP4I9GCg2XfGdL_VU65DJ-ubhg1FE4Q/exec', {
     method: 'POST',
     body: formData
   })
